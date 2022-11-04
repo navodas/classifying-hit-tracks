@@ -39,7 +39,7 @@ Below tasks are carried out in the Jupyter notebook **File - ML_classifier_for_h
     - Random Forest
     - Gradient Boosting
 6. Selected Random Forest algorithm for hyper parameter tunning using grid search.
-7. The final model is trained with best hyper-parameter values and saved for deployment. 
+7. The final model is trained with best hyper-parameter values and saved for deployment (due to the large size of the model the gzip version is included to github rf_predictor.pkl.gz). 
 
 ##### Model deployment using fastapi
 1. Developed a REST api using fastapi for deploying the ML model (refer **app.py**).
